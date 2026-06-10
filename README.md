@@ -9,8 +9,8 @@ flowchart LR
   Browser[Browser] --> TanStackStart[TanStackStart]
   TanStackStart --> ServerFns[ServerFunctions]
   ServerFns --> Supabase[(Supabase PostgreSQL)]
-  ServerFns --> FootballAPI[football-data.org]
-  Admin[/admin] --> ServerFns
+  ServerFns --> FootballAPI["football-data.org"]
+  Admin["/admin"] --> ServerFns
 ```
 
 ---
